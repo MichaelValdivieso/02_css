@@ -1,0 +1,17 @@
+/* archivo css */
+
+
+table{
+    border: solid black;
+    text-align: center;
+   border-collapse: collapse;
+    
+}
+
+.impar{
+
+    background-color: blue;
+}
+tr{
+    border:none;
+}

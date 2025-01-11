@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width:80%;
+    align-items: center;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;   
+    ;
+}
+         
+.padre{
+    display: flex;
+    width: 100%;
+    border: 1px solid red;
+
+}
+
+.one{
+    width: 33%;
+    height: calc(50vh);
+border: 1px solid red;
+}
+.content {
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.two{
+    width: 35%;
+    height: calc(25vh);
+    border: 1px solid red;
+}
+.three{
+    width: 100%;
+    height: calc(25vh);
+    border: 1px solid red;
+}
+.four{
+    width: 35%;
+        height: calc(50vh);
+        border: 1px solid red;
+}
+.five{
+    width: 100%;
+    height: calc(25vh);
+    border: 1px solid red;
+
+}

@@ -1,0 +1,15 @@
+/* archivo css */
+
+li::marker{
+    
+    color:red;  
+}
+
+.content:{
+    
+    content: "center" align;
+align-content: center;
+
+
+}
+

@@ -1,0 +1,12 @@
+li{
+    display: inline;
+    border: 2px solid burlywood;
+ 
+}
+h1{
+    display: none;
+}
+
+h1{
+    visibility: hidden;
+}

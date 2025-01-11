@@ -1,0 +1,28 @@
+*{
+    color: beige;
+}
+
+
+
+h1{
+    color: rgb(200, 189, 209);
+    padding: 20px;
+    border: 2px solid blueviolet;
+    /* mueve el texto  */
+    /* margin mueve el borde */
+    background-color: coral;
+    /* color al fondo del elmento */
+    font-family: Arial;
+
+}
+p{
+    color:darkgoldenrod;
+    
+}
+body{
+    background-image: url("../assets/pngtree-faceted-abstract-background.webp");
+    background-repeat: no-repeat;
+    /* background-size: cover ocupa toda la pantalla */
+    background-size: cover ;
+
+}
