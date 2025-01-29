@@ -1,13 +1,16 @@
-a{
+a {
     color: rgb(250, 246, 246);
     background-color: darkcyan;
 }
-a:link{
+
+a:link {
     color: aqua;
 }
-a:visited{
-    color:chartreuse;
+
+a:visited {
+    color: chartreuse;
 }
-a:hover{
+
+a:hover {
     color: cornflowerblue;
 }

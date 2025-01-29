@@ -1,36 +1,40 @@
-h1{
+h1 {
     color: rgb(160, 50, 154);
 }
 
-div{
+div {
     background-color: red;
     width: 100px;
     height: 100px;
     margin: 10px;
 }
+
 /* clase */
-.alerta{
+.alerta {
     background-color: aquamarine;
     height: 200px;
     width: 200px;
 }
+
 /* id */
-#caja{
+#caja {
     border: 1px solid;
     height: 30px;
     width: 10px;
 }
+
 /* agrupación de selectores  */
-.alerta-importante.alerta-no-importante{
+.alerta-importante.alerta-no-importante {
     background-color: aquamarine;
     height: 200px;
     width: 200px;
 }
 
-.alerta-importante{
+.alerta-importante {
 
     background-color: red;
 }
-.alerta-no-importante{
+
+.alerta-no-importante {
     background-color: yellow;
 }

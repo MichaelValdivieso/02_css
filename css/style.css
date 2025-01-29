@@ -1,10 +1,10 @@
-*{
+* {
     color: beige;
 }
 
 
 
-h1{
+h1 {
     color: rgb(200, 189, 209);
     padding: 20px;
     border: 2px solid blueviolet;
@@ -15,14 +15,16 @@ h1{
     font-family: Arial;
 
 }
-p{
-    color:darkgoldenrod;
-    
+
+p {
+    color: darkgoldenrod;
+
 }
-body{
+
+body {
     background-image: url("../assets/pngtree-faceted-abstract-background.webp");
     background-repeat: no-repeat;
     /* background-size: cover ocupa toda la pantalla */
-    background-size: cover ;
+    background-size: cover;
 
 }

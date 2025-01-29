@@ -3,14 +3,17 @@
     width: 500px;
     height: 100px;
 }
-.content3{
+
+.content3 {
     background-color: aquamarine;
 }
-.content4{
+
+.content4 {
     background-color: beige;
     width: 500px;
     height: 100px;
 }
+
 .p1 {
     text-decoration: line-through;
 }
@@ -23,7 +26,8 @@
     text-decoration: underline;
 
 }
-.alineacion{
+
+.alineacion {
     text-align: justify;
 }
 
@@ -34,10 +38,12 @@
 .down {
     text-transform: lowercase;
 }
-.cap{
+
+.cap {
     text-transform: capitalize;
 }
-.indentar{
+
+.indentar {
     border: greenyellow solid 3px;
     text-indent: 30px;
     letter-spacing: 5px;

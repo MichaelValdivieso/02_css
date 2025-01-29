@@ -1,21 +1,24 @@
-*{
+* {
     box-sizing: border;
 }
-body{
+
+body {
     display: flex;
     width: 80%;
     margin-inline: auto;
-   text-align: center;
-    flex-wrap: wrap ;
+    text-align: center;
+    flex-wrap: wrap;
     background-color: brown;
 }
-.padre{
+
+.padre {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    border:1px solid yellow;
+    border: 1px solid yellow;
 }
-.hijo{
+
+.hijo {
     width: 100%;
     height: calc(5vh);
     border: 1px solid white;
@@ -28,8 +31,9 @@ body{
     border: 1px solid rgb(16, 204, 107);
     background-color: green;
 }
-.content{
-    display:flex;
+
+.content {
+    display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
