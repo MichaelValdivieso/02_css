@@ -1,0 +1,16 @@
+/* archivo css */
+body {
+    font-family: serif;
+}
+
+h2 {
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}

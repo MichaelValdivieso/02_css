@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Css/style.css">
+</head>
+
+<body>
+
+    <head>
+        <div class="myDiv">
+
+            <h1>Sabores del mundo</h1>
+            <h3>La mejor gastronomía a tu alcance</h3>
+
+        </div>
+
+    </head>
+    <h2>Servicios:</h2>
+    <div class="Ser">
+        <ul>
+            <li>Platos fuertes</li>
+            <li>Postres</li>
+            <li>Servicio para llevar</li>
+        </ul>
+    </div>
+    <h2>Menú del día</h2>
+    <div>
+        <table>
+            <tr>
+                <th>Categoría</th>
+                <th>Nombre del Plato</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Entrada</td>
+                <td>Sopa de verduras</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Plato principal</td>
+                <td>Hornado</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Postre</td>
+                <td>CheeseCake</td>
+                <td>6</td>
+            </tr>
+        </table>
+    </div>
+    <h2>Formulario:</h2>
+    <div class="Form">
+        <h3>Nombre: </h3><input type="text" name="" id="">
+        <h3>Número de personas: </h3><input type="text" name="" id="">
+        <h3>Fecha de reserva: </h3><input type="date" name="" id="">
+        <h3>Comentarios:</h3><textarea name="" id=""></textarea><br>
+
+    </div>
+    <div class="but">
+        <button type="submit" [disabled]="!form.form.valid">
+            ENVIAR
+        </button>
+    </div>
+    <h2>Ubicación:</h2>
+    <div class="map">
+        <iframe
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=chimborazao%20690,%20quito+(uko%20bread)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                href="https://www.gps.ie/sport-gps/"></iframe>
+    </div>
+    <h2>Escuchanos en vivo:</h2>
+    <div class="audio">
+        <audio controls>
+            <source src="C:\Users\Michael\Bootcamp\02_css\trabajo_Clase\assets\chattering-in-a-restaurant-6718.mp3"
+                type="audio/mp3">
+        </audio>
+    </div>
+
+    <div class="pie">
+        <footer>
+            <p>Dirección: Federico González Suárez, Quito 170184</p>
+            <p>Horario:8:00 - 20:00</p>
+            <p>Teléfono: 098 519 7572</p>
+        </footer>
+    </div>
+</body>
+
+</html>
